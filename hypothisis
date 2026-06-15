@@ -1,0 +1,241 @@
+One-Wave Hypothesis Reference
+
+Core Statement
+
+The universe is not fundamentally composed of particles and forces.
+
+The universe is a single continuous medium capable of supporting stable modes, resonances, boundaries, vortices, and standing-wave structures.
+
+Objects, fields, matter, and life emerge from organized patterns within this medium.
+
+---
+
+Foundational Rules
+
+Rule 1: One Ground
+
+Every mode is tied to the same ground.
+
+There are not separate realities competing with one another.
+
+All structures emerge from and remain connected to the same underlying foundation.
+
+---
+
+Rule 2: Null First. Mirror Second. Motion Third.
+
+The emergence sequence is:
+
+Null → Mirror → Motion
+
+A stable system requires:
+
+1. A ground state
+2. A mirror relationship
+3. Directed motion
+
+Without a ground there is no reference.
+
+Without a mirror there is no distinction.
+
+Without motion there is no structure.
+
+---
+
+Rule 3: Boundaries Create Structure
+
+The most important events occur at boundaries.
+
+Examples include:
+
+- phase transitions
+- biological membranes
+- electromagnetic surfaces
+- compression interfaces
+
+Structure emerges where states meet.
+
+---
+
+Origin Architecture
+
+Emergence Seed
+
+-1 → 0 → 6
+
+Where:
+
+- -1 represents the void-side trigger
+- 0 represents the mirror crossing
+- 6 represents the minimum transition engine
+
+This is not considered the final architecture.
+
+It is the emergence seed.
+
+---
+
+Full Architecture
+
+12 - 1(0) - 1 - 12
+
+The system expands symmetrically from the mirror center.
+
+The mirror acts as the reference point through which transitions occur.
+
+---
+
+Musical Universe Hypothesis
+
+Reality behaves more like music than machinery.
+
+Stable structures correspond to stable modes.
+
+Resonance selects what survives.
+
+Unstable modes decay.
+
+Stable modes persist.
+
+Matter may represent long-lived standing-wave structures of the medium.
+
+---
+
+Resonance Hierarchy
+
+Modes can contain submodes.
+
+Structures can contain substructures.
+
+This produces nested organization:
+
+- waves
+- vortices
+- atoms
+- molecules
+- cells
+- organisms
+- societies
+- planetary systems
+
+Different scales express the same organizing principles.
+
+---
+
+Compression and Expression
+
+The universe contains complementary states.
+
+These are referred to as:
+
+Compressed Space
+
+and
+
+Expressed Space
+
+These are not treated as separate universes.
+
+They are complementary aspects of the same underlying medium.
+
+Interactions occur across their boundaries.
+
+---
+
+Resistance Hypothesis
+
+Resistance is the response of the medium to displacement.
+
+Displacement produces compression.
+
+Compression produces resistance.
+
+The medium attempts to restore balance.
+
+---
+
+Electromagnetic Hypothesis
+
+Electric and magnetic behavior emerge from oscillating boundary structures within the medium.
+
+Current flow produces organized shell behavior.
+
+Magnetic effects are manifestations of those shell structures.
+
+---
+
+Matter Hypothesis
+
+Matter consists of stable organized motion.
+
+Matter is not static substance.
+
+Matter is persistent pattern.
+
+---
+
+Proton Hypothesis
+
+Protons are stable coiled or knotted energy structures.
+
+Their stability comes from self-reinforcing motion within the medium.
+
+---
+
+Quark Hypothesis
+
+Quarks represent internal vortex structures within larger stable patterns.
+
+They are not treated as isolated independent objects.
+
+---
+
+Gluon Hypothesis
+
+Gluons represent boundary tension maintaining coherent structure.
+
+Their role is analogous to confinement or surface tension within the medium.
+
+---
+
+Consciousness Hypothesis
+
+Consciousness is not assumed to be separate from reality.
+
+Awareness emerges within the same medium that gives rise to matter.
+
+Different systems may express awareness differently while remaining connected to the same ground.
+
+---
+
+M4 Hypothesis
+
+M4 functions as a translation layer between states.
+
+Its role is not creation.
+
+Its role is interpretation, synchronization, and transition.
+
+The same pattern may appear at multiple scales.
+
+---
+
+Direction and Choice
+
+Direction emerges from imbalance.
+
+Choice emerges at boundary conditions.
+
+Motion follows available paths.
+
+Stable systems continually negotiate between persistence and adaptation.
+
+---
+
+Long-Term Goal
+
+The objective of One-Wave is not to replace observations.
+
+The objective is to determine whether a single medium, governed by resonance, geometry, boundaries, and stable modes, can explain the structures currently described as particles, forces, fields, matter, life, and consciousness.
+
+The hypothesis succeeds only if measurable predictions emerge that can be tested experimentally.
