@@ -1,22 +1,35 @@
-One-Wave Framework: Current Proof Status (June 2026)
+One-Wave Framework: Current Proof Status
+
+Research Audit Record (June 2026)
 
 Purpose
 
 This document is not a statement that One-Wave is correct.
 
-It is a record of what has been established, what appears promising, and what remains unproven.
+It is a record of:
 
-The goal is to prevent accidental movement of ideas between categories.
+- accepted observations
+- supported principles
+- mathematical results
+- active hypotheses
+- unresolved questions
+- speculative concepts
+
+The purpose is to prevent accidental movement of ideas between categories.
+
+A claim only moves upward when supported by mathematics, experiment, or successful prediction.
 
 ---
 
 LEVEL 0: OBSERVATIONAL FACTS
 
-These are accepted observations that any successful theory must explain.
+These are observations that any successful physical theory must explain.
 
 O0.1 Stable Structures Exist
 
-The universe contains stable repeating structures:
+The universe contains persistent repeating structures.
+
+Examples:
 
 - atoms
 - molecules
@@ -25,15 +38,17 @@ The universe contains stable repeating structures:
 - planets
 - stars
 
-Conclusion:
+Conclusion
 
-Nature prefers some states over others.
+Nature permits stable states.
 
 ---
 
 O0.2 Resonance Exists
 
-Stable modes appear everywhere:
+Stable resonant modes appear throughout physical systems.
+
+Examples:
 
 - strings
 - drums
@@ -41,9 +56,9 @@ Stable modes appear everywhere:
 - electromagnetic systems
 - mechanical systems
 
-Conclusion:
+Conclusion
 
-Standing-wave behavior is a fundamental feature of reality.
+Standing-wave behavior is a recurring feature of nature.
 
 ---
 
@@ -55,18 +70,18 @@ Examples:
 
 - crystals
 - molecules
-- particle multiplets
+- conservation laws
 - field equations
 
-Conclusion:
+Conclusion
 
-Symmetry is not optional.
+Symmetry strongly constrains physical behavior.
 
 ---
 
 O0.4 Boundaries Matter
 
-Interesting behavior often appears at interfaces.
+Interesting behavior often emerges at interfaces.
 
 Examples:
 
@@ -75,97 +90,145 @@ Examples:
 - electromagnetic surfaces
 - fluid boundaries
 
-Conclusion:
+Conclusion
 
-Boundaries appear to be structure-generating locations.
+Boundaries frequently act as structure-generating regions.
 
 ---
 
-LEVEL 1: CURRENTLY SUPPORTED IDEAS
+LEVEL 1: SUPPORTED PRINCIPLES
 
-These are supported by existing science but not unique to One-Wave.
+These ideas are well supported by existing science but are not unique to One-Wave.
 
-P1.1 Stable Modes Produce Stable Structures
+P1.1 Stable Modes Produce Stable Patterns
 
-Standing waves naturally create persistent patterns.
+Standing waves naturally generate persistent structures.
 
 Supported by:
 
 - acoustics
 - optics
-- cavity resonators
+- resonant cavities
 
-Status: SUPPORTED
+Status
+
+SUPPORTED
 
 ---
 
 P1.2 Geometry Determines Allowed Modes
 
-The shape of a system constrains what patterns can exist.
+The shape and topology of a system constrain the patterns that may exist within it.
 
 Supported by:
 
 - normal mode analysis
 - spherical harmonics
 - cavity physics
+- spectral geometry
 
-Status: SUPPORTED
+Status
+
+SUPPORTED
 
 ---
 
-P1.3 Nested Structures Are Common
+P1.3 Nested Structure Is Common
 
-Stable systems often contain stable substructures.
+Stable systems frequently contain stable substructures.
 
 Examples:
 
 - atoms
-- solar systems
+- planetary systems
 - biological systems
 
-Status: SUPPORTED
+Status
+
+SUPPORTED
 
 ---
 
-LEVEL 2: ONE-WAVE AUDITS WITH POSITIVE RESULTS
+P1.4 Resonance Produces Harmonic Families
 
-These are places where the framework survived initial mathematical review.
+Many physical systems organize into discrete harmonic relationships.
+
+Examples:
+
+- musical harmonics
+- cavity resonances
+- waveguide modes
+- atomic energy structures
+
+Status
+
+SUPPORTED
+
+One-Wave Interpretation
+
+Reality may ultimately be describable through allowed resonant families rather than fundamental objects.
+
+This interpretation remains unproven.
+
+---
+
+LEVEL 2: MATHEMATICAL RESULTS SURVIVING AUDIT
+
+These are mathematical structures that survived current review.
+
+These results do not establish that nature uses the model.
+
+They establish that the mathematics is internally consistent.
 
 P2.1 S³ Mode Structure Exists
 
-The 3-sphere naturally contains discrete mode families.
+The three-sphere naturally supports discrete mode families.
 
-Status: VERIFIED
+Status
+
+MATHEMATICALLY VERIFIED
 
 ---
 
 P2.2 Dirac Spectrum Produces Ordered Ladders
 
-Round S³ Dirac spectrum:
+For the round three-sphere:
 
-±(n + 3/2)
+with the expected degeneracy structure.
 
-with expected degeneracy structure.
+Status
 
-Status: VERIFIED
+MATHEMATICALLY VERIFIED
 
 ---
 
 P2.3 Geometry Alone Produces Rich Spectra
 
-Complex mode structures emerge without adding arbitrary particles.
+Complex mode structures emerge from geometry without introducing additional particle assumptions.
 
-Status: VERIFIED
+Status
+
+MATHEMATICALLY VERIFIED
+
+Important Limitation
+
+This result is not unique to One-Wave.
+
+Many established physical theories also obtain rich spectra from geometry.
 
 ---
 
-P2.4 Z3 / Triad Structures Appear Naturally
+P2.4 Z₃ / Triad Structures Recur Naturally
 
-Three-fold phase relationships occur repeatedly in mathematics and physics.
+Three-fold phase relationships appear repeatedly throughout mathematics and physics.
 
-Status: VERIFIED AS A STRUCTURAL OBSERVATION
+Status
 
-Not yet verified as the source of lepton masses.
+VERIFIED AS A STRUCTURAL OBSERVATION
+
+Not Yet Established
+
+No derivation currently connects these structures to observed lepton masses.
 
 ---
 
@@ -173,99 +236,123 @@ LEVEL 3: ACTIVE HYPOTHESES UNDER TEST
 
 These are central One-Wave claims.
 
-No proof yet.
-
-H3.1 Resistance Is Compression Response
-
-Claim:
-
-Resistance arises from medium compression caused by displacement.
-
-Predictions:
-
-- measurable geometric dependence
-- boundary effects
-- stress-related changes
-
-Status: UNDER AUDIT
+No proof currently exists.
 
 ---
 
-H3.2 Magnetic Fields Are Boundary Shells
+H3.1 Resistance As Compression Response
 
-Claim:
+Claim
 
-Magnetic behavior emerges from oscillatory boundary structures.
+Electrical resistance emerges from compression-like responses within an underlying medium.
 
-Predictions:
+Required Evidence
 
-- shell-like organization
-- geometric dependencies
+Must reproduce:
 
-Status: UNDER AUDIT
+- known resistance laws
+- material dependence
+- temperature dependence
+- geometric scaling
+
+Status
+
+UNDER AUDIT
 
 ---
 
-H3.3 Protons Are Stable Knotted Coils
+H3.2 Magnetic Fields As Boundary Structures
 
-Claim:
+Claim
 
-Protons are stable coiled energy structures.
+Magnetic behavior emerges from oscillatory boundary organization.
 
-Requirements:
+Required Evidence
+
+Must reproduce:
+
+- field geometry
+- induction
+- electromagnetic wave behavior
+- known magnetic measurements
+
+Status
+
+UNDER AUDIT
+
+---
+
+H3.3 Protons As Stable Knotted Coils
+
+Claim
+
+The proton is a stable self-organized energy structure.
+
+Required Evidence
 
 Must reproduce:
 
 - charge
 - magnetic moment
 - stability
-- scattering data
+- scattering measurements
 
-Status: UNDER AUDIT
+Status
+
+UNDER AUDIT
 
 ---
 
-H3.4 Quarks Are Internal Vortices
+H3.4 Quarks As Internal Vortices
 
-Claim:
+Claim
 
-Quarks are vortex structures inside larger knots.
+Observed quark behavior reflects internal vortex structure within larger modes.
 
-Requirements:
+Required Evidence
 
 Must explain:
 
 - confinement
-- observed fractions
-- scattering signatures
+- fractional charges
+- scattering data
+- hadron structure
 
-Status: UNDER AUDIT
+Status
+
+UNDER AUDIT
 
 ---
 
-H3.5 Gluons Are Boundary Tension
+H3.5 Gluons As Boundary Tension
 
-Claim:
+Claim
 
-Confinement originates from surface-tension-like behavior.
+Confinement emerges from surface-tension-like boundary effects.
 
-Requirements:
+Required Evidence
 
-Must reproduce QCD confinement behavior.
+Must reproduce known confinement behavior quantitatively.
 
-Status: UNDER AUDIT
+Status
+
+UNDER AUDIT
 
 ---
 
 LEVEL 4: UNRESOLVED QUESTIONS
 
-U4.1 What Is The Medium?
+These questions currently have no accepted One-Wave solution.
+
+---
+
+U4.1 What Is The Underlying Medium?
 
 Unknown.
 
 ---
 
-U4.2 Why These Modes?
+U4.2 Why These Specific Modes?
 
 Unknown.
 
@@ -277,61 +364,79 @@ Unknown.
 
 ---
 
-U4.4 What Fixes Koide Phase?
+U4.4 What Fixes The Koide Phase?
 
 Unknown.
 
-Possible candidates:
+Possible candidates include:
 
 - topology
-- Z3 lattice structure
+- Z₃ structures
 - both
+
+No derivation currently exists.
 
 ---
 
 U4.5 What Is Charge?
 
-Still unresolved.
+Unknown.
+
+Current interpretations remain incomplete.
 
 ---
 
 LEVEL 5: SPECULATIVE ARCHITECTURE
 
-Interesting ideas with little evidence currently.
+Interesting concepts with insufficient evidence.
+
+---
 
 S5.1 Compression Space / Expressed Space
 
-Status: SPECULATIVE
+Status
+
+SPECULATIVE
 
 ---
 
 S5.2 12-1(0)-1-6 Universal Topology
 
-Status: SPECULATIVE
+Status
 
-Requires mathematical derivation.
+SPECULATIVE
+
+Required For Advancement
+
+- precise mathematical definition
+- symmetry identification
+- observable predictions
 
 ---
 
-S5.3 M4 As Fundamental Physical Structure
+S5.3 M4 As Fundamental Structure
 
-Status: SPECULATIVE
+Status
 
-Needs experimental support.
+SPECULATIVE
+
+Requires mathematical and experimental support.
 
 ---
 
 S5.4 Consciousness Coupled To Wave Topology
 
-Status: SPECULATIVE
+Status
 
-No proof currently.
+SPECULATIVE
+
+No supporting evidence currently exists.
 
 ---
 
-STRONGEST CURRENT ONE-WAVE RESULT
+STRONGEST CURRENT RESULT
 
-The strongest result so far is not a particle claim.
+The strongest current result is not a particle claim.
 
 It is:
 
@@ -339,18 +444,28 @@ Geometry naturally generates discrete mode structures.
 
 This survives mathematical scrutiny.
 
-The remaining challenge is showing that known particle properties emerge from those mode structures quantitatively.
+The remaining challenge is determining whether known particle properties emerge quantitatively from those structures.
 
 ---
 
 NEXT PROOF TARGET
 
-Primary objective:
+Primary Objective
 
-Can One-Wave derive measurable particle properties from geometry and resonance alone?
+Can measurable particle properties be derived from geometry and resonance alone?
 
-Success criteria:
+Minimum Success Requirement
 
-Predict something before inserting the known answer.
+Predict at least one measurable quantity before inserting the known answer.
 
-Only then does One-Wave move from conceptual framework toward physical theory.
+Examples:
+
+- mass ratio
+- magnetic moment
+- scattering feature
+- confinement scale
+- coupling relationship
+
+Advancement Criterion
+
+Only successful prediction moves One-Wave from a conceptual framework toward a physical theory.
