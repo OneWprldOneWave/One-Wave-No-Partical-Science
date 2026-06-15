@@ -27,30 +27,26 @@ Displacement is the alteration and movement of the field caused by energy propag
 Associated Concepts:
 
 - Energy
-- Field
+-
+ Field
+12-1 expressed expressed lived in current reality state
+
 - Superfluid Crystal Lattice
+the underling structure of the field at the boundry point holding the two expressed and expressed field together at the mirror gate
 - Geometry
 - Dynamics
-- Gradient
-- Flow
-- Return Flow
-- Resistance
-- Excitation
-- Oscillation
-- Interlocking
-- Dark Matter
-- Gravity
-- Mass Effect
 
-Lattice
-Node
-Coordinate
-Propagation
-Coupling
-Damping
-Friction
+
+No particles!
+they are just excitations or measrments at the focal point when a wave form is collapsed by a lense
+- 
+Oscillation
+modulating/Stabalizing/Reset to zero 
+
 Resistance
-Pressure
+the compression ring due to displacrment outward 
+Pressure causing the liquid crystal lattice to tighten like lighter wheel to flint moving creating excitation points at the boundry point between negative compressed and expressed space 12-1(0)-1-6 as electricity flows from 3d space to 2D space creating the osscilating magnetic electric shell helping to lock the coilled knotted energy stay in patterned nesteed motion "protons" and "quarks" vorticies within the positron and the "gluon" surface tention doing there part in all this as well.
+
 Gradient
 Flow
 Flowback
