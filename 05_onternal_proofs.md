@@ -432,17 +432,266 @@ Status
 }
 ]
 
+------
+
+Node 56: Excitation
+
+Definition
+
+An excitation is a persistent bounded deviation from equilibrium.
+
+An excitation is not a particle.
+
+An excitation is not a material object.
+
+An excitation is a stable persistence structure maintained by the mechanisms established in Nodes 51–55.
+
+A transient disturbance is not necessarily an excitation.
+
+A persistent bounded disturbance is an excitation.
+
 ---
+
+One-Wave Rule
+
+An excitation exists on λ₁ as a bounded mode.
+
+Multi-mode, nested, interference, and composite excitations are deferred to later chapters.
+
+Chapter 5 establishes the existence conditions for excitation.
+
+It does not establish excitation families.
+
+All later excitations must reduce to the Chapter 5 stability foundation.
+
+---
+
+3D Expressed View
+
+In expressed space, an excitation appears as a localized stable structure.
+
+Differential
+↓
+Flowback
+↓
+Pressure
+↓
+Surface
+↓
+Coupling
+↓
+Stability
+↓
+Localized Persistence
+
+Possible forms include:
+
+- standing oscillations
+- bounded wave structures
+- localized knots
+- vortex-like structures
+- composite stable modes
+
+No specific shape is required.
+
+---
+
+2D Compressed View
+
+In compressed space, the same excitation appears as a persistent stability pattern.
+
+Differential
+↓
+Flowback
+↓
+Pressure
+↓
+Surface
+↓
+Coupling
+↓
+Stability
+↓
+Persistent Pattern
+
+Possible representations include:
+
+- node maps
+- resonance maps
+- packing patterns
+- lattice representations
+- hexagonal representations
+
+No representation is required.
+
+No compressed-space representation is assumed to be the physical structure itself.
+
+---
+
+Dual Representation Rule
+
+Every excitation possesses:
+
+3D Expressed Representation
+
++ 
+
+2D Compressed Representation
+
+Both describe the same underlying excitation.
+
+Neither representation is fundamental by itself.
+
+---
+
+Reduction Rule
+
+Every excitation introduced in One-Wave must ultimately reduce to:
+
+Differential
+↓
+Flowback
+↓
+Pressure
+↓
+Surface
+↓
+Coupling
+↓
+Stability
+↓
+Persistence
+
+No excitation may bypass this chain.
+
+If a proposed excitation cannot reduce to this chain, the definition remains incomplete.
+
+---
+
+Math Form
+
+Let:
+
+ψ(x,t)
+
+represent a bounded mode.
+
+Excitation requires:
+
+ψ ≠ 0
+
+while remaining stable.
+
+Let:
+
+E(ψ)
+
+be the excitation energy.
+
+The excitation condition is:
+
+dE/dψ = 0
+
+and
+
+d²E/dψ² > 0
+
+with bounded amplitude:
+
+Amin ≤ A(t) ≤ Amax
+
+---
+
+Proof
+
+If:
+
+ψ = 0
+
+then no deviation exists.
+
+No excitation exists.
+
+If:
+
+ψ ≠ 0
+
+but:
+
+d²E/dψ² < 0
+
+then the state is unstable.
+
+The disturbance disperses.
+
+No persistent excitation exists.
+
+If:
+
+ψ ≠ 0
+
+and:
+
+dE/dψ = 0
+
+and:
+
+d²E/dψ² > 0
+
+then the disturbance occupies a local energy minimum.
+
+Small perturbations increase energy.
+
+The disturbance remains bounded.
+
+Therefore:
+
+Stable bounded deviation
+⇒
+Excitation
+
+---
+
+Status
+
+GREEN: excitation follows from stability.
+
+YELLOW: excitation families remain undefined.
+
+---
+
+Scope Boundary
+
+Node 56 proves:
+
+- excitation can exist
+- excitation can persist
+- excitation reduces to Chapter 5 stability mechanisms
+- excitation possesses both 2D and 3D representations
+
+Node 56 does not prove:
+
+- proton structure
+- electron structure
+- quark structure
+- nested resonance
+- composite excitation structure
+- multi-mode excitation stability
+
+Those are deferred to later chapters.
+
+---
+
 
 Chapter 5 Definition-Level Audit
 
 Node| Word| Definition Proof| Calibration Status
-51| Flowback| GREEN| K_f unknown
-52| Pressure| GREEN| K_p unknown
-53| Surface| GREEN| \sigma unknown
-54| Coupling| GREEN| a,b,c unknown
+51| Flowback| GREEN| K_f unknown
+52| Pressure| GREEN| K_p unknown
+53| Surface| GREEN| σ unknown
+54| Coupling| GREEN| a,b,c unknown
 55| Stability| GREEN| Stability window unknown
-
+56| Excitation| GREEN| Excitation families undefined
 ---
 
 Calibration Rule
@@ -484,12 +733,14 @@ Scope Boundary
 
 Chapter 5 proves:
 
+- Chapter 5 proves:
+
 - flowback can exist
 - pressure can exist
 - surface effects can exist
 - coupling can exist
 - stability can be defined mathematically
-
+- excitation can emerge from those mechanisms
 Chapter 5 does not prove:
 
 - particle identity
@@ -513,7 +764,6 @@ They remain numerically uncalibrated.
 \text{GREEN for form. YELLOW for coefficients.}
 }
 ]
-
-Chapter 5 establishes the stability mechanisms of a single bounded mode.
+Chapter 5 establishes the stability mechanisms of a single bounded mode and the conditions under which excitation can persist.
 
 All later structures must reduce to this foundation.
