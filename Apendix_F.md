@@ -455,3 +455,203 @@ Final Lock
 \text{Escalate to Full 3D Evaluation}
 }
 ]
+I think this belongs in Chapter 6.
+
+Not because it's about geometry, but because it's about interaction between theory and observation. Projection tells you what you can see. Prediction tells you what you expect to happen next. Then you compare prediction to observation. That's the Yellow brick road.
+
+Chapter 6 Function Node
+
+Function: Prediction
+
+Status: 🟡 Yellow
+
+---
+
+Purpose
+
+Prediction estimates the future state of a bounded One-Wave system using the current mathematical model.
+
+A prediction is not proof.
+
+It is a hypothesis that can be compared against observation.
+
+---
+
+Definition
+
+Let the present field state be
+
+[
+\psi^n
+]
+
+The model predicts the next state
+
+[
+\hat{\psi}^{,n+1}
+]
+
+The observed next state is
+
+[
+\psi^{,n+1}
+]
+
+---
+
+Mathematics
+
+Prediction error is
+
+[
+\epsilon
+
+\left|
+\psi^{,n+1}
+
+\hat{\psi}^{,n+1}
+\right|
+]
+
+A perfect prediction satisfies
+
+[
+\epsilon=0.
+]
+
+Otherwise
+
+[
+\epsilon>0.
+]
+
+---
+
+Proof
+
+Assume a mathematical model exists.
+
+The model generates
+
+[
+\hat{\psi}^{,n+1}.
+]
+
+Reality (or simulation) produces
+
+[
+\psi^{,n+1}.
+]
+
+Comparing the two defines prediction error.
+
+Therefore,
+
+[
+\boxed{
+\text{Prediction}
+\Rightarrow
+\text{Measurable Error}
+}
+]
+
+---
+
+Interpretation
+
+Prediction is the bridge between mathematics and experiment.
+
+Without prediction, no model can be tested.
+
+Without observation, no prediction can be evaluated.
+
+---
+
+Assumptions
+
+- A mathematical update rule exists.
+- The predicted state and observed state are comparable.
+- Error can be measured consistently.
+
+---
+
+Candidate Experiment
+
+1. Record the present state:
+
+[
+\psi^n
+]
+
+2. Compute the predicted next state:
+
+[
+\hat{\psi}^{,n+1}
+]
+
+3. Measure the actual next state:
+
+[
+\psi^{,n+1}
+]
+
+4. Compute
+
+[
+\epsilon
+
+\left|
+\psi^{,n+1}
+
+\hat{\psi}^{,n+1}
+\right|
+]
+
+5. Repeat across many trials.
+
+---
+
+Dependencies
+
+- Projection
+- Gradient
+- Restoring Response
+- Recursion
+
+---
+
+Yellow Brick Road
+
+Prediction creates the bridge from internal mathematics to external testing.
+
+Every Yellow node must eventually produce a prediction that can be compared with observation.
+
+---
+
+Final Lock
+
+[
+\boxed{
+\text{Prediction}
+
+\text{Expected Future State}
+}
+]
+
+[
+\boxed{
+\text{Prediction}
++
+\text{Observation}
+
+\text{Error}
+}
+]
+
+[
+\boxed{
+\text{Error}
+\Rightarrow
+\text{Model Revision or Validation}
+}
+]I actually like this as one of the central Chapter 6 nodes. It explains why the Yellow brick road exists at all: every Yellow node must make a prediction before it can ever hope to become Bronze. That's a clean organizing principle instead of just a color label.
