@@ -1569,3 +1569,276 @@ Final Green Lock
 ]
 
 under the current One-Wave working postulate.
+Function Node
+
+Function: Recursion
+
+Status: 🟡 Yellow
+
+---
+
+Purpose
+
+Recursion describes a system whose future state is produced by feeding previous states back into the update rule.
+
+Memory alone is not recursion.
+
+A system may store previous states without using them.
+
+Recursion requires both memory and a feedback rule.
+
+---
+
+Definition
+
+Let the One-Wave field state at step n be
+
+[
+\psi_n.
+]
+
+A recursive update rule has the form
+
+[
+\boxed{
+\psi_{n+1}
+
+f(\psi_n,\psi_{n-1})
+}
+]
+
+where previous states are used as inputs for the next state.
+
+More generally,
+
+[
+\psi_{n+1}
+
+f(\psi_n,\psi_{n-1},\psi_{n-2},\ldots).
+]
+
+---
+
+Mathematics
+
+A one-step update has the form
+
+[
+\psi_{n+1}=f(\psi_n).
+]
+
+A two-step memory update has the form
+
+[
+\psi_{n+1}=f(\psi_n,\psi_{n-1}).
+]
+
+A deeper-memory update has the form
+
+[
+\psi_{n+1}=f(\psi_n,\psi_{n-1},\psi_{n-2},\ldots).
+]
+
+The difference
+
+[
+\Delta\psi_n=\psi_n-\psi_{n-1}
+]
+
+defines a velocity-like state change.
+
+Therefore, two-step memory is the minimum structure required for inertial-memory behavior.
+
+---
+
+Proof
+
+Assume previous states are retained:
+
+[
+\psi_n,\psi_{n-1}.
+]
+
+Assume the update rule uses those previous states:
+
+[
+\psi_{n+1}
+
+f(\psi_n,\psi_{n-1}).
+]
+
+Then previous outputs become inputs to future evolution.
+
+Therefore,
+
+[
+\boxed{
+\text{Memory}
++
+\text{Feedback Rule}
+\Rightarrow
+\text{Recursion}
+}
+]
+
+Oscillation may arise from recursion, but recursion does not require oscillation.
+
+---
+
+Locality Rule
+
+The existing One-Wave update rule includes neighbor coupling:
+
+[
+\beta_i(\langle\psi_j^n\rangle-\psi_i^n).
+]
+
+Therefore recursion is not purely local.
+
+It already includes local-neighborhood coupling.
+
+The remaining open question is whether recursion includes only nearest-neighbor/local-neighborhood coupling or whether longer-range nonlocal coupling also exists.
+
+---
+
+Inertial Memory Link
+
+The memory-depth question connects directly to the future Inertial Memory node.
+
+A two-step recursive rule allows a velocity-like difference:
+
+[
+\Delta\psi_n=\psi_n-\psi_{n-1}.
+]
+
+This makes inertial behavior possible.
+
+A one-step rule may update state but cannot define the same motion-memory structure by itself.
+
+Therefore, Recursion supplies part of the foundation for Inertial Memory.
+
+---
+
+Assumptions
+
+- Previous field states can be retained.
+- A feedback rule uses previous states as inputs.
+- The update rule may have finite or deeper memory.
+- Local-neighborhood coupling already exists through the β term.
+- Longer-range nonlocal coupling remains open.
+- Oscillation is not required for recursion.
+
+---
+
+Candidate Experiment
+
+Objective
+
+Determine the memory depth required to reproduce observed One-Wave behavior.
+
+Procedure
+
+1. Test a one-step update:
+
+[
+\psi_{n+1}=f(\psi_n).
+]
+
+2. Test a two-step update:
+
+[
+\psi_{n+1}=f(\psi_n,\psi_{n-1}).
+]
+
+3. Test deeper-memory updates:
+
+[
+\psi_{n+1}=f(\psi_n,\psi_{n-1},\psi_{n-2},\ldots).
+]
+
+4. Compare which rule best reproduces observed behavior.
+
+5. Measure whether increasing memory depth changes:
+
+- stability,
+- oscillation,
+- convergence,
+- divergence,
+- damping,
+- propagation.
+
+6. Test whether local-neighborhood coupling is sufficient or whether longer-range coupling is required.
+
+---
+
+Dependencies
+
+Core Functions
+
+- Memory
+- Feedback Rule
+- Prediction
+
+Supporting Functions
+
+- Oscillation
+- Inertial Memory
+
+---
+
+Yellow Audit Result
+
+Recursion reaches Yellow because the hidden assumption has been exposed.
+
+Memory alone does not produce recursion.
+
+A feedback rule is required.
+
+The node now identifies the testable architecture:
+
+[
+\psi_{n+1}
+
+f(\psi_n,\psi_{n-1})
+]
+
+and exposes the remaining audit targets:
+
+- memory depth,
+- inertial memory,
+- local versus longer-range coupling.
+
+---
+
+Final Yellow Lock
+
+[
+\boxed{
+\text{Memory}
++
+\text{Feedback Rule}
+\Rightarrow
+\text{Recursion}
+}
+]
+
+[
+\boxed{
+\psi_{n+1}
+
+f(\psi_n,\psi_{n-1})
+}
+]
+
+[
+\boxed{
+\Delta\psi_n
+
+\psi_n-\psi_{n-1}
+}
+]
+
+[
+\boxed{
+\text{Two-step memory supports inertial-memory behavior.}
+}
