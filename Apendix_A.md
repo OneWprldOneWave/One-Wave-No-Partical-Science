@@ -1842,3 +1842,243 @@ f(\psi_n,\psi_{n-1})
 \boxed{
 \text{Two-step memory supports inertial-memory behavior.}
 }
+Here's the finished version with the last two revisions folded in: direct dependencies only, and the interaction list generalized so it doesn't accidentally define "electrical locking" before its own node exists.
+
+Function Node
+
+Function: Persistent Mode
+
+Status: 🟡 Yellow
+
+---
+
+Purpose
+
+A Persistent Mode is a recursive field pattern that survives repeated evolution without collapsing.
+
+Recursion alone does not guarantee persistence.
+
+Persistence requires stable recursive behavior.
+
+---
+
+Definition
+
+Let the recursive update rule be
+
+[
+\psi_{n+1}
+
+f(\psi_n,\psi_{n-1}).
+]
+
+A Persistent Mode is a recursive pattern that remains stable through repeated updates.
+
+---
+
+Mathematics
+
+Operational Stability Criterion
+
+A recursive mode is operationally considered persistent if
+
+[
+\boxed{
+|\psi_{n+k}-\psi_n|<\varepsilon
+}
+]
+
+for sufficiently large
+
+[
+k,
+]
+
+where
+
+[
+\varepsilon
+]
+
+is the chosen stability tolerance.
+
+This criterion is directly measurable in simulation or experiment.
+
+Future Analytical Criterion
+
+Once the recursive update rule has been fully specified, stability may also be analyzed through perturbation methods.
+
+One possible analytical criterion is
+
+[
+\lambda_{\max}<0.
+]
+
+This analytical test is deferred until the recursive dynamics have been fully derived.
+
+---
+
+Proof
+
+Assume the recursive field evolves according to
+
+[
+\psi_{n+1}
+
+f(\psi_n,\psi_{n-1}).
+]
+
+If repeated recursive evolution satisfies
+
+[
+|\psi_{n+k}-\psi_n|<\varepsilon,
+]
+
+then the recursive pattern remains stable through repeated evolution.
+
+Therefore
+
+[
+\boxed{
+\text{Stable Recursion}
+\Rightarrow
+\text{Persistent Mode}
+}
+]
+
+---
+
+Hidden Assumptions
+
+Stability
+
+The operational definition is
+
+[
+|\psi_{n+k}-\psi_n|<\varepsilon.
+]
+
+Future analytical criteria remain open.
+
+---
+
+Persistent Mode
+
+A Persistent Mode may be
+
+- periodic,
+- quasiperiodic,
+- stationary,
+- localized,
+- traveling,
+- topological,
+
+or another stable recursive structure.
+
+This node does not yet distinguish among these possibilities.
+
+---
+
+Persistence Time
+
+Persistence requires a measurable observation window.
+
+Future work must determine whether persistence means
+
+- finite duration,
+- experimental duration,
+- or indefinite recursion.
+
+---
+
+Failure Modes
+
+A Persistent Mode may fail through changes in the field's internal interaction mechanisms, including
+
+- instability,
+- damping,
+- mode coupling,
+- interaction changes,
+- numerical error.
+
+The mathematical conditions under which the One-Wave interaction mechanisms destabilize a Persistent Mode remain open.
+
+---
+
+Candidate Experiment
+
+Objective
+
+Determine which recursive structures remain persistent.
+
+Procedure
+
+1. Construct a recursive update rule.
+
+2. Seed an initial mode.
+
+3. Iterate the system over increasing time.
+
+4. Measure
+
+[
+|\psi_{n+k}-\psi_n|.
+]
+
+5. Classify the resulting behavior as
+
+- convergence,
+- oscillation,
+- persistence,
+- collapse.
+
+6. Apply controlled perturbations to the recursive update.
+
+7. Determine which internal interaction changes preserve or destroy the Persistent Mode.
+
+---
+
+Dependencies
+
+Core Functions
+
+- Recursion
+
+Supporting Functions
+
+- Prediction
+
+Future Dependencies
+
+- Inertial Memory
+
+---
+
+Yellow Audit Result
+
+The Green proof remains valid.
+
+The Yellow audit identifies four measurable quantities requiring further definition:
+
+- stability,
+- persistence,
+- persistence timescale,
+- failure conditions.
+
+The operational stability criterion has been identified.
+
+Future analytical stability tests remain open.
+
+---
+
+Final Yellow Lock
+
+[
+\boxed{
+\text{Stable Recursion}
+\Rightarrow
+\text{Persistent Mode}
+}
+]
+
+subject to measurable definitions of stability and persistence.
