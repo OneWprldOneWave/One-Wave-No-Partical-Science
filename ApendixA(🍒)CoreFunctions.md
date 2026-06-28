@@ -527,12 +527,12 @@ This node establishes the differential as the mathematical measure of displaceme
 It provides the quantity from which spatial variation is computed.
 
 ---
-
-Final Green Lock
-
 [
 \boxed{\Delta\psi=\psi-\psi_0}
 ]
+
+Final Green Lock
+
 ---
 
 Function Node
@@ -656,11 +656,6 @@ Green Audit Result
 This node establishes Gradient as the mathematical measure of spatial imbalance.
 
 It does not define the field's response to that imbalance; that relationship is established by the Restoring Response function.
-
----
-
-Final Green Lock
-
 [
 \boxed{\nabla\psi}
 ]
@@ -683,6 +678,11 @@ Final Green Lock
 [
 \boxed{\text{Differential}\Rightarrow\text{Gradient}}
 ]
+---
+
+Final Green Lock
+
+
 ---
 
 Function Node
