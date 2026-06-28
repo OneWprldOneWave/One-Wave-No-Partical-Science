@@ -1245,3 +1245,153 @@ x=0.
 \Rightarrow
 \text{No Local Stability}.
 }
+Function Node
+
+Function: Bounded Motion
+
+Status: 🟢 Green
+
+---
+
+Purpose
+
+Bounded Motion describes motion that remains confined around a defined ground state rather than escaping indefinitely.
+
+---
+
+Definition
+
+Let the field displacement from ground be
+
+[
+x=\psi-\psi_0.
+]
+
+A mode is bounded if its motion remains within a finite region surrounding the ground state.
+
+---
+
+Mathematics
+
+Assume a restoring response
+
+[
+F_{OW}=-\mathcal{A}(x),
+]
+
+where
+
+[
+\mathcal{A}(x)
+]
+
+is the restoring-response function.
+
+If
+
+[
+x\mathcal{A}(x)>0,
+]
+
+then
+
+[
+xF_{OW}<0,
+]
+
+meaning the restoring response always points toward the ground.
+
+This establishes Local Stability.
+
+If the restoring response continues to oppose displacement throughout the accessible region of motion, then the mode remains confined to that region.
+
+---
+
+Proof 5
+
+Assume a displaced mode
+
+[
+x\neq0.
+]
+
+Assume a restoring response
+
+[
+F_{OW}=-\mathcal{A}(x).
+]
+
+If
+
+[
+x\mathcal{A}(x)>0,
+]
+
+then
+
+[
+xF_{OW}<0.
+]
+
+Therefore the response acts toward the ground rather than away from it.
+
+Provided the restoring response remains effective throughout the region occupied by the mode, the motion cannot freely escape.
+
+Hence
+
+[
+\boxed{
+\text{Restoring Response}
+\Rightarrow
+\text{Bounded Motion}
+}
+]
+
+within the stated assumptions.
+
+---
+
+Working Assumptions
+
+- A Ground/Zero reference state exists.
+- Displacement is measured relative to ground.
+- Restoring Response opposes displacement.
+- The restoring response remains restoring throughout the region occupied by the mode.
+- No external driving force overcomes the restoring response.
+
+---
+
+Dependencies
+
+Core Functions
+
+- Ground / Zero
+- Displacement
+- Differential
+- Gradient
+- Restoring Response
+- Local Stability
+
+---
+
+Green Audit Result
+
+The proof establishes that a restoring response directed toward ground produces bounded motion under the stated assumptions.
+
+The proof does not determine whether the restoring response remains valid for arbitrarily large displacement.
+
+Questions concerning finite versus infinite restoring basins, escape energy, inertial memory, and oscillatory behavior are deferred to later function nodes.
+
+---
+
+Final Green Lock
+
+[
+\boxed{
+\text{Restoring Response}
+\Rightarrow
+\text{Bounded Motion}
+}
+]
+
+under the stated assumptions.
