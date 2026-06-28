@@ -1101,7 +1101,6 @@ Final Green Lock
 [
 \boxed{\text{No Ground}\Rightarrow\text{No Local Stability}}
 ]
-Yes. This is the version I'd lock. It keeps the Green proof honest while preserving the stronger bridge to Oscillation.
 
 ---
 
