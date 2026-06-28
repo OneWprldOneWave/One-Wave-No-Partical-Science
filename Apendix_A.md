@@ -1395,3 +1395,177 @@ Final Green Lock
 ]
 
 under the stated assumptions.
+Function Node
+
+Function: Restoring Response
+
+Status: 🟢 Green
+
+---
+
+Purpose
+
+A restoring response is the field's response to a spatial imbalance.
+
+When a gradient exists, the field responds by acting against that imbalance.
+
+---
+
+Definition
+
+Let the One-Wave field gradient be
+
+[
+\nabla\psi
+]
+
+Define the restoring response as
+
+[
+F_{OW}.
+]
+
+The current One-Wave working postulate defines restoring response as
+
+[
+\boxed{
+F_{OW}
+
+-\alpha\nabla\psi
+}
+]
+
+where
+
+[
+\alpha>0
+]
+
+is a proportional response coefficient.
+
+---
+
+Mathematics
+
+If
+
+[
+\nabla\psi=0,
+]
+
+then
+
+[
+F_{OW}=0.
+]
+
+If
+
+[
+\nabla\psi\neq0,
+]
+
+then
+
+[
+F_{OW}\neq0
+]
+
+according to the current working postulate.
+
+---
+
+Proof 3
+
+Assume a spatial gradient exists:
+
+[
+\nabla\psi\neq0.
+]
+
+Using the current restoring-response postulate,
+
+[
+F_{OW}
+
+-\alpha\nabla\psi
+]
+
+with
+
+[
+\alpha>0,
+]
+
+therefore
+
+[
+F_{OW}\neq0.
+]
+
+Hence,
+
+[
+\boxed{
+\text{Gradient}
+\Rightarrow
+\text{Restoring Response}
+}
+]
+
+---
+
+Current Working Postulate
+
+The negative sign is presently treated as a working postulate because it produces restoring behavior consistent with equilibrium.
+
+Alternative response laws remain open for future derivation and experimental testing.
+
+---
+
+Assumptions
+
+- A field gradient exists.
+- A restoring response exists.
+- The restoring response is presently assumed proportional to the gradient.
+- The proportionality constant satisfies
+
+[
+\alpha>0.
+]
+
+- The negative sign is a working postulate rather than a completed derivation.
+
+---
+
+Dependencies
+
+Core Functions
+
+- Displacement
+- Differential
+- Gradient
+
+---
+
+Green Audit Result
+
+The mathematical relationship has been stated as a working postulate.
+
+The proof is internally consistent under its stated assumptions.
+
+The origin of the restoring-response equation, the role of projection, the behavior of the proportionality constant, and experimental validation remain unresolved and are addressed in Appendix A Revision.
+
+---
+
+Final Green Lock
+
+[
+\boxed{
+\text{Gradient}
+\Rightarrow
+\text{Restoring Response}
+}
+]
+
+under the current One-Wave working postulate.
