@@ -2235,16 +2235,274 @@ controls the persistence of inertial memory.
 Whether this parameter is constant or state dependent remains open.
 
 ---
+Here. Full combined Inertial Memory node, cleaned up. No half-node goblin confetti.
+
+Function Node
+
+Function: Inertial Memory
+
+Status: 🟡 Yellow
+
+---
+
+Purpose
+
+Inertial Memory describes the mechanism by which a recursive field carries motion information from one update into the next.
+
+Unlike simple state memory, Inertial Memory preserves the previous state change and allows that change to influence future evolution.
+
+---
+
+Definition
+
+Let the One-Wave recursive update rule be
+
+[
+\psi_i^{n+1}
+
+\psi_i^n
++
+(1-\gamma)(\psi_i^n-\psi_i^{n-1})
++
+\beta(\langle\psi_j^n\rangle-\psi_i^n).
+]
+
+Define the previous state change as
+
+[
+\Delta\psi_n
+
+\psi_n-\psi_{n-1}.
+]
+
+The term
+
+[
+(1-\gamma)\Delta\psi_n
+]
+
+is the inertial-memory contribution to the next update.
+
+---
+
+Mathematics
+
+Measure displacement from a common ground:
+
+[
+x_n=\psi_n-\psi_0.
+]
+
+If both recursive states share the same reference ground,
+
+[
+\psi_{0,n}=\psi_{0,n-1},
+]
+
+then
+
+[
+\Delta x_n
+
+x_n-x_{n-1}
+]
+
+becomes
+
+[
+\Delta x_n
+
+(\psi_n-\psi_0)-(\psi_{n-1}-\psi_0)
+]
+
+so
+
+[
+\Delta x_n
+
+\psi_n-\psi_{n-1}
+
+\Delta\psi_n.
+]
+
+Therefore, the previous motion is preserved without introducing artificial ground drift.
+
+---
+
+Proof
+
+Assume the One-Wave update rule:
+
+[
+\psi_i^{n+1}
+
+\psi_i^n
++
+(1-\gamma)(\psi_i^n-\psi_i^{n-1})
++
+\beta(\langle\psi_j^n\rangle-\psi_i^n).
+]
+
+The term
+
+[
+(1-\gamma)(\psi_i^n-\psi_i^{n-1})
+]
+
+explicitly carries the previous state change into the next update.
+
+Since that state change contributes directly to future evolution,
+
+[
+\boxed{
+(1-\gamma)\Delta\psi_n
+
+\text{Inertial Memory}
+}
+]
+
+under the current One-Wave recursive update rule.
+
+---
+
+Shared Ground Rule
+
+Inertial Memory requires successive states to be measured relative to the same fixed ground reference.
+
+This is required because
+
+[
+\Delta x_n=\Delta\psi_n
+]
+
+only holds when
+
+[
+\psi_{0,n}=\psi_{0,n-1}.
+]
+
+If ground drifts, then the measured state change may include reference drift rather than true field motion.
+
+Ground stability is defined by the Ground / Zero node.
+
+---
+
+Memory Depth
+
+The current One-Wave update rule uses two-state memory to carry motion information through the explicit term
+
+[
+(1-\gamma)\Delta\psi_n.
+]
+
+Whether other update rules can encode motion information using a different state representation remains open.
+
+Whether deeper memory,
+
+[
+\psi_{n-2},\psi_{n-3},\ldots
+]
+
+produces additional inertial behavior also remains open.
+
+---
+
+Memory Persistence
+
+The parameter
+
+[
+\gamma
+]
+
+controls how much of the previous state change is retained.
+
+Within the current update rule:
+
+[
+\gamma=0
+]
+
+means full carry-forward of the previous state change.
+
+[
+\gamma=1
+]
+
+removes the inertial-memory contribution.
+
+This node treats
+
+[
+\gamma
+]
+
+as a scalar memory-persistence parameter.
+
+Future work may determine that the recursive update requires a more general memory operator,
+
+[
+\Gamma,
+]
+
+analogous to the progression from
+
+[
+\alpha
+]
+
+to
+
+[
+\mathcal{A}
+]
+
+in Restoring Response.
+
+Whether
+
+[
+\gamma \rightarrow \Gamma
+]
+
+is required remains open.
+
+---
 
 Neighbor Coupling
 
 The current update rule includes local-neighborhood coupling through
 
 [
-\beta(\langle\psi_j^{,n}\rangle-\psi_i^{,n}).
+\beta(\langle\psi_j^n\rangle-\psi_i^n).
 ]
 
-Whether longer-range coupling contributes to inertial memory remains open.
+This node treats the inertial-memory term
+
+[
+(1-\gamma)\Delta\psi_n
+]
+
+as the explicit carry-forward mechanism.
+
+The neighborhood term modifies the field's evolution around that carry-forward behavior.
+
+This is an inter-node coupling question.
+
+It is distinct from Intra-State Coupling, which concerns interactions among components inside a single field state.
+
+Both coupling directions remain related but separate open investigations.
+
+---
+
+Hidden Assumptions
+
+- Successive states share the same reference ground.
+- The current update rule uses two-state memory.
+- The previous state change is the carried memory quantity.
+- \gamma is currently treated as a scalar parameter.
+- Longer-range coupling beyond local-neighborhood coupling remains open.
+- Intra-state coupling remains separate from inter-node coupling.
 
 ---
 
@@ -2256,19 +2514,33 @@ Determine how recursive memory contributes to inertial behavior.
 
 Procedure
 
-- Compare one-step and two-step recursive update rules.
-- Vary the parameter
+1. Compare one-step and two-step recursive update rules.
+
+2. Vary the parameter
 
 [
 \gamma.
 ]
 
-- Measure overshoot.
-- Measure damping.
-- Measure oscillation.
-- Measure persistence.
+3. Measure whether changing
 
-Determine the minimum memory required to reproduce the observed behavior.
+[
+\gamma
+]
+
+changes:
+
+- overshoot,
+- damping,
+- oscillation,
+- persistence,
+- collapse.
+
+4. Test whether two-state memory is sufficient to reproduce observed behavior.
+
+5. Test whether deeper memory produces additional behavior.
+
+6. Test whether local-neighborhood coupling is sufficient or whether longer-range coupling is required.
 
 ---
 
@@ -2283,25 +2555,33 @@ Supporting Functions
 
 - Prediction
 
+Related Future Functions
+
+- Intra-State Coupling
+- Inter-Node Coupling
+- Oscillation
+
 ---
 
 Yellow Audit Result
 
-The Green concept has been strengthened by identifying the explicit mechanism responsible for inertial memory.
+The Green concept has been strengthened by identifying the explicit mechanism responsible for Inertial Memory.
 
-Rather than assuming a generic recursive dependence, the current One-Wave update rule contains an explicit carry-forward term
-
-[
-(1-\gamma)\Delta\psi_n,
-]
-
-which preserves motion information between successive updates.
-
-The remaining questions concern memory depth, persistence, ground stability, and the behavior of the parameter
+Rather than assuming generic recursive dependence, the current One-Wave update rule contains an explicit carry-forward term:
 
 [
-\gamma.
+(1-\gamma)\Delta\psi_n.
 ]
+
+This term preserves previous motion information between successive updates.
+
+The node now identifies:
+
+- the carried quantity,
+- the shared-ground requirement,
+- the role of \gamma,
+- the distinction between inter-node and intra-state coupling,
+- and the possible future generalization from scalar \gamma to operator \Gamma.
 
 ---
 
@@ -2315,16 +2595,26 @@ Final Yellow Lock
 }
 ]
 
-with
+under the current One-Wave recursive update rule.
 
 [
 \boxed{
-\text{Two States}
-+
-\text{One Shared Ground}
-+
-\text{No Ground Drift}
+\Delta x_n=\Delta\psi_n
 }
 ]
 
-under the current One-Wave recursive update rule.
+only when successive states share the same reference ground:
+
+[
+\boxed{
+\psi_{0,n}=\psi_{0,n-1}.
+}
+]
+
+Therefore:
+
+[
+\boxed{
+\text{Inertial Memory requires successive field states to be measured relative to the same fixed ground reference.}
+}
+]
