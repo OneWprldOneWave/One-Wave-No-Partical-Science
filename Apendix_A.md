@@ -430,3 +430,384 @@ F_{OW}
 \text{Projection inherits Blocker 0 and is not itself a response channel.}
 }
 ]I like this format better. The node is self-contained, and its location in the repository can change later without forcing you to edit the document just because you moved it from one chapter to another. That's exactly the sort of modular "brick" you've been aiming for.
+Function Node
+
+Function: Pressure Response
+
+Status: 🟡 Yellow
+
+---
+
+Purpose
+
+Pressure Response describes how the field responds to spatial curvature.
+
+While Restoring Response reacts to first-order imbalance (Gradient), Pressure Response reacts to second-order imbalance (Curvature).
+
+---
+
+Definition
+
+Let the One-Wave field be
+
+[
+\psi
+]
+
+Let field curvature be
+
+[
+\boxed{\nabla^2\psi}
+]
+
+Pressure Response is defined by the curvature-response operator
+
+[
+\boxed{
+P_{OW}
+
+-\mathcal{C}(\nabla^2\psi)
+}
+]
+
+where
+
+[
+\mathcal{C}
+]
+
+is the One-Wave curvature-response operator.
+
+The earlier Green formulation
+
+[
+P=-c^2\nabla^2\psi
+]
+
+is retained as the special case in which
+
+[
+\mathcal{C}
+]
+
+reduces to a single scalar coefficient.
+
+---
+
+Mathematics
+
+If
+
+[
+\nabla^2\psi=0,
+]
+
+then
+
+[
+P_{OW}=0.
+]
+
+If
+
+[
+\nabla^2\psi\neq0,
+]
+
+then
+
+[
+P_{OW}\neq0
+]
+
+provided
+
+[
+\mathcal{C}(\nabla^2\psi)\neq0.
+]
+
+---
+
+Proof 4: Curvature Creates Pressure Response
+
+Assume
+
+[
+\nabla^2\psi\neq0.
+]
+
+Pressure Response is defined as the field's distributed response to curvature.
+
+Therefore
+
+[
+P_{OW}
+
+-\mathcal{C}(\nabla^2\psi).
+]
+
+If
+
+[
+\mathcal{C}(\nabla^2\psi)\neq0,
+]
+
+then
+
+[
+P_{OW}\neq0.
+]
+
+Hence
+
+[
+\boxed{
+\text{Curvature}
+\Rightarrow
+\text{Pressure Response}
+}
+]
+
+under the current One-Wave definition.
+
+---
+
+Operator Relationship
+
+Restoring Response and Pressure Response are related but are not presently assumed to be identical.
+
+Restoring Response acts on first spatial imbalance:
+
+[
+F_{OW}
+
+-\mathcal{A}(\nabla\psi)
+]
+
+Pressure Response acts on curvature:
+
+[
+P_{OW}
+
+-\mathcal{C}(\nabla^2\psi)
+]
+
+Since
+
+[
+\nabla^2\psi
+
+\nabla\cdot(\nabla\psi),
+]
+
+a mathematical relationship between
+
+[
+\mathcal{A}
+]
+
+and
+
+[
+\mathcal{C}
+]
+
+may exist.
+
+Until such a derivation is completed,
+
+[
+\boxed{
+\mathcal{C}
+\text{ is treated as provisionally independent of }
+\mathcal{A}.
+}
+]
+
+---
+
+Working Postulate
+
+The negative sign remains a working postulate.
+
+It represents a response opposing unresolved curvature.
+
+Alternative pressure-response laws remain open until future mathematical derivation or experimental validation.
+
+---
+
+Projection Note
+
+Projection is not a pressure-response channel.
+
+Projection is an observational layer.
+
+This node inherits Projection consistency questions but does not resolve them.
+
+---
+
+Assumptions
+
+- Curvature is represented by
+
+[
+\nabla^2\psi.
+]
+
+- Curvature may generate a distributed field response.
+
+- The response operator need not reduce to a universal scalar.
+
+- The mathematical relationship between
+
+[
+\mathcal{A}
+]
+
+and
+
+[
+\mathcal{C}
+]
+
+remains unresolved.
+
+---
+
+Candidate Experiment
+
+Objective
+
+Determine whether curvature produces a measurable pressure response distinguishable from first-gradient restoring response.
+
+Procedure
+
+1. Produce multiple controlled field configurations.
+
+2. Measure
+
+[
+\nabla\psi
+]
+
+and
+
+[
+\nabla^2\psi.
+]
+
+3. Measure the total field response.
+
+4. Model the response as
+
+[
+R_{total}
+
+R_{\nabla}
++
+R_{\nabla^2},
+]
+
+where
+
+[
+R_{\nabla}
+
+-\mathcal{A}(\nabla\psi)
+]
+
+and
+
+[
+R_{\nabla^2}
+
+-\mathcal{C}(\nabla^2\psi).
+]
+
+5. Compare configurations having similar gradients but different curvature, and similar curvature but different gradients.
+
+6. Determine whether curvature contributes an independent response beyond first-gradient restoring response.
+
+7. If one scalar coefficient describes every response,
+
+[
+\mathcal{C}
+\rightarrow
+c^2.
+]
+
+Otherwise the operator form is retained.
+
+---
+
+Dependencies
+
+Core Functions
+
+- Displacement
+- Differential
+- Gradient
+- Restoring Response
+
+Supporting Functions
+
+- Projection
+- Prediction
+
+---
+
+Yellow Audit Result
+
+The hidden scalar assumption has been exposed.
+
+The pressure-response law has been generalized from
+
+[
+P=-c^2\nabla^2\psi
+]
+
+to
+
+[
+P_{OW}
+
+-\mathcal{C}(\nabla^2\psi).
+]
+
+A concrete experimental path now exists for determining whether the scalar form is sufficient or whether an operator description is required.
+
+---
+
+Final Yellow Lock
+
+[
+\boxed{
+\text{Curvature}
+\Rightarrow
+\text{Pressure Response}
+}
+]
+
+[
+\boxed{
+P_{OW}
+
+-\mathcal{C}(\nabla^2\psi)
+}
+]
+
+[
+\boxed{
+c^2
+\text{ is a possible special case of }
+\mathcal{C}.
+}
+]
+
+[
+\boxed{
+\mathcal{A}
+\text{ and }
+\mathcal{C}
+\text{ remain mathematically related but not yet derived.}
+}
