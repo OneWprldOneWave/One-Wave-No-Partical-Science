@@ -2171,7 +2171,7 @@ Final Green Lock
 \Rightarrow
 \text{Stable Recursive Structure}.
 }
-]That makes a nice ending for Appendix A. It closes the function chain and naturally hands off to Book 1: Micro Objects, where those functions start being applied instead of defined.
+]
 Looking Ahead
 
 Appendix Red A established the core functions of the One-Wave framework.
