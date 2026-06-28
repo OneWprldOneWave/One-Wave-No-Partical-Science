@@ -2082,3 +2082,249 @@ Final Yellow Lock
 ]
 
 subject to measurable definitions of stability and persistence.
+Here's the complete Yellow node, cleaned up to match the style you've been using.
+
+Function Node
+
+Function: Inertial Memory
+
+Status: 🟡 Yellow
+
+---
+
+Purpose
+
+Inertial Memory describes the mechanism by which a recursive field carries motion information from one update into the next.
+
+Unlike simple state memory, Inertial Memory preserves the previous state change and allows that change to influence future evolution.
+
+---
+
+Definition
+
+Let the One-Wave recursive update rule be
+
+[
+\psi_i^{,n+1}
+
+\psi_i^{,n}
++
+(1-\gamma)(\psi_i^{,n}-\psi_i^{,n-1})
++
+\beta(\langle\psi_j^{,n}\rangle-\psi_i^{,n}).
+]
+
+Define the previous state change as
+
+[
+\Delta\psi_n
+
+\psi_n-\psi_{n-1}.
+]
+
+The term
+
+[
+(1-\gamma)\Delta\psi_n
+]
+
+is the inertial-memory contribution to the next update.
+
+---
+
+Mathematics
+
+Measure displacement from a common ground
+
+[
+x_n=\psi_n-\psi_0.
+]
+
+If
+
+[
+\boxed{\psi_{0,n}=\psi_{0,n-1}},
+]
+
+then
+
+[
+\Delta x_n
+
+(x_n-x_{n-1})
+
+\psi_n-\psi_{n-1}
+
+\Delta\psi_n.
+]
+
+Therefore the previous motion is preserved without introducing artificial ground drift.
+
+---
+
+Proof
+
+Assume the One-Wave update rule
+
+[
+\psi_i^{,n+1}
+
+\psi_i^{,n}
++
+(1-\gamma)(\psi_i^{,n}-\psi_i^{,n-1})
++
+\beta(\langle\psi_j^{,n}\rangle-\psi_i^{,n}).
+]
+
+The term
+
+[
+(1-\gamma)(\psi_i^{,n}-\psi_i^{,n-1})
+]
+
+explicitly carries the previous state change into the next update.
+
+Since that state change contributes directly to future evolution,
+
+[
+\boxed{
+(1-\gamma)\Delta\psi_n
+
+\text{Inertial Memory}
+}
+]
+
+under the current One-Wave recursive update rule.
+
+---
+
+Hidden Assumptions
+
+Shared Ground
+
+Both recursive states are referenced to the same ground.
+
+[
+\boxed{
+\psi_{0,n}=\psi_{0,n-1}
+}
+]
+
+Ground drift remains the subject of the Ground / Zero function.
+
+---
+
+Memory Depth
+
+The current update rule uses two-state memory.
+
+Whether deeper memory produces additional inertial effects remains open.
+
+---
+
+Memory Persistence
+
+The parameter
+
+[
+\gamma
+]
+
+controls the persistence of inertial memory.
+
+Whether this parameter is constant or state dependent remains open.
+
+---
+
+Neighbor Coupling
+
+The current update rule includes local-neighborhood coupling through
+
+[
+\beta(\langle\psi_j^{,n}\rangle-\psi_i^{,n}).
+]
+
+Whether longer-range coupling contributes to inertial memory remains open.
+
+---
+
+Candidate Experiment
+
+Objective
+
+Determine how recursive memory contributes to inertial behavior.
+
+Procedure
+
+- Compare one-step and two-step recursive update rules.
+- Vary the parameter
+
+[
+\gamma.
+]
+
+- Measure overshoot.
+- Measure damping.
+- Measure oscillation.
+- Measure persistence.
+
+Determine the minimum memory required to reproduce the observed behavior.
+
+---
+
+Dependencies
+
+Core Functions
+
+- Ground / Zero
+- Recursion
+
+Supporting Functions
+
+- Prediction
+
+---
+
+Yellow Audit Result
+
+The Green concept has been strengthened by identifying the explicit mechanism responsible for inertial memory.
+
+Rather than assuming a generic recursive dependence, the current One-Wave update rule contains an explicit carry-forward term
+
+[
+(1-\gamma)\Delta\psi_n,
+]
+
+which preserves motion information between successive updates.
+
+The remaining questions concern memory depth, persistence, ground stability, and the behavior of the parameter
+
+[
+\gamma.
+]
+
+---
+
+Final Yellow Lock
+
+[
+\boxed{
+(1-\gamma)\Delta\psi_n
+
+\text{Inertial Memory}
+}
+]
+
+with
+
+[
+\boxed{
+\text{Two States}
++
+\text{One Shared Ground}
++
+\text{No Ground Drift}
+}
+]
+
+under the current One-Wave recursive update rule.
