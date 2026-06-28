@@ -811,3 +811,437 @@ c^2
 \mathcal{C}
 \text{ remain mathematically related but not yet derived.}
 }
+Here's the finished Local Stability Yellow node with the audit fixes incorporated, including the Ground dependency and the channel experiment note.
+
+Function Node
+
+Function: Local Stability
+
+Status: 🟡 Yellow
+
+---
+
+Purpose
+
+Local Stability describes the tendency of a displaced field state to return toward its local ground.
+
+It establishes local attraction to equilibrium.
+
+It does not claim global bounded motion.
+
+---
+
+Definition
+
+Let the field state be
+
+[
+\psi
+]
+
+Let the local ground state be
+
+[
+\psi_0
+]
+
+Define displacement from ground:
+
+[
+x=\psi-\psi_0
+]
+
+A state is locally stable when sufficiently small displacements produce a restoring response directed back toward ground.
+
+---
+
+Mathematics
+
+Let the restoring response be
+
+[
+F_{OW}=-\mathcal{A}(x)
+]
+
+where
+
+[
+\mathcal{A}
+]
+
+is the restoring-response operator.
+
+A local restoring condition is
+
+[
+xF_{OW}<0.
+]
+
+Substituting
+
+[
+F_{OW}=-\mathcal{A}(x)
+]
+
+gives
+
+[
+x[-\mathcal{A}(x)]<0
+]
+
+or equivalently
+
+[
+\boxed{
+x\mathcal{A}(x)>0.
+}
+]
+
+This condition guarantees that the restoring response opposes small displacement.
+
+---
+
+Energy Form
+
+Define the local potential
+
+[
+V(x)=\int_0^x\mathcal{A}(s),ds.
+]
+
+A locally stable ground satisfies
+
+[
+V(0)=0
+]
+
+and
+
+[
+V(x)>0
+]
+
+for sufficiently small
+
+[
+x\neq0.
+]
+
+For the scalar linear special case
+
+[
+\mathcal{A}(x)=\alpha x,
+]
+
+with
+
+[
+\alpha>0,
+]
+
+the potential becomes
+
+[
+V(x)=\frac12\alpha x^2,
+]
+
+and
+
+[
+\frac{d^2V}{dx^2}=\alpha>0,
+]
+
+confirming that the ground is a local minimum.
+
+---
+
+Proof
+
+Assume
+
+[
+x\neq0.
+]
+
+Assume the restoring response
+
+[
+F_{OW}=-\mathcal{A}(x).
+]
+
+If
+
+[
+x\mathcal{A}(x)>0,
+]
+
+then
+
+[
+xF_{OW}<0.
+]
+
+Therefore the response always points toward the local ground.
+
+Hence
+
+[
+\boxed{
+\text{Restoring Response tied to Ground}
+\Rightarrow
+\text{Local Stability}.
+}
+]
+
+---
+
+Ground Rule
+
+Local Stability requires a defined reference ground.
+
+Without
+
+[
+\psi_0,
+]
+
+displacement
+
+[
+x=\psi-\psi_0
+]
+
+cannot be defined.
+
+Therefore
+
+[
+\boxed{
+\text{No Ground}
+\Rightarrow
+\text{No Local Stability}.
+}
+]
+
+This node assumes a valid Ground/Zero function exists.
+
+If compressed and expressed geometries possess different equilibrium states, displacement must be defined independently for each geometry:
+
+[
+x_{2D}
+
+\psi_{2D}
+
+\psi_{0,2D}
+]
+
+[
+x_{3D}
+
+\psi_{3D}
+
+\psi_{0,3D}.
+]
+
+---
+
+Channel Rule
+
+If the restoring response contains multiple response channels,
+
+[
+\mathcal{A}
+
+\mathcal{A}_1+\mathcal{A}_2+\cdots,
+]
+
+then each channel may possess its own local potential
+
+[
+V_i(x)
+
+\int_0^x
+\mathcal{A}_i(s),ds.
+]
+
+Local stability may therefore exist in some channels while failing in others.
+
+A single global stability condition is not assumed.
+
+---
+
+Boundary to Bounded Motion
+
+Local Stability is not equivalent to Bounded Motion.
+
+This node proves only local attraction toward ground.
+
+Bounded Motion additionally requires the mode to remain inside a stable basin.
+
+That future condition is written as
+
+[
+E_{mode}
+<
+E_{escape},
+]
+
+where
+
+[
+E_{escape}
+]
+
+is presently an undefined future quantity.
+
+Therefore
+
+[
+\boxed{
+\text{Local Stability}
+\neq
+\text{Bounded Motion}.
+}
+]
+
+and
+
+[
+\boxed{
+\text{Local Stability}
++
+E_{mode}<E_{escape}
+\Rightarrow
+\text{Bounded Motion}.
+}
+]
+
+---
+
+Assumptions
+
+- A Ground/Zero reference state exists.
+- Displacement is measured relative to ground.
+- Restoring Response acts against displacement.
+- The restoring-response operator satisfies the local return condition.
+- Local potential is defined near ground.
+- Escape energy is not yet defined.
+- Local Stability does not imply global boundedness.
+
+---
+
+Candidate Experiment
+
+Objective
+
+Determine whether small displacements return toward the local ground.
+
+Procedure
+
+1. Identify the local ground state
+
+[
+\psi_0.
+]
+
+2. Produce small positive and negative displacements.
+
+3. Measure the combined restoring response
+
+[
+F_{OW}.
+]
+
+4. Test whether
+
+[
+xF_{OW}<0.
+]
+
+5. Estimate the local potential
+
+[
+V(x).
+]
+
+6. Verify that
+
+[
+V(x)>0
+]
+
+near
+
+[
+x=0.
+]
+
+7. If individual response channels become experimentally distinguishable, repeat the analysis independently for each channel.
+
+---
+
+Dependencies
+
+Core Functions
+
+- Ground / Zero
+- Displacement
+- Restoring Response
+
+Supporting Functions
+
+- Projection
+- Prediction
+
+---
+
+Yellow Audit Result
+
+The mathematical condition for Local Stability has been identified:
+
+[
+xF_{OW}<0.
+]
+
+The equivalent energy condition has been defined:
+
+[
+V(x)>0
+]
+
+near the local ground.
+
+This node intentionally stops at local stability and does not claim global bounded motion.
+
+---
+
+Final Yellow Lock
+
+[
+\boxed{
+\text{Restoring Response tied to Ground}
+\Rightarrow
+\text{Local Stability}.
+}
+]
+
+[
+\boxed{
+xF_{OW}<0.
+}
+]
+
+[
+\boxed{
+V(x)>0
+\text{ near }
+x=0.
+}
+]
+
+[
+\boxed{
+\text{No Ground}
+\Rightarrow
+\text{No Local Stability}.
+}
