@@ -4,7 +4,7 @@ Appendix Red A establishes the foundational functions of the One-Wave framework.
 These functions define the mathematical and logical operations upon which later appendices and books are built.
 Each function is presented as an independent node containing its purpose, definition, assumptions, dependencies, candidate experiment, and audit status.
 The purpose of Appendix Red A is to establish the core functional language before applying it to larger structures developed in later sections of the repository.
-Got it. We'll do one clean node at a time. No chat comments, no "here's the finished version," just what belongs in the repository.
+
 
 ---
 
