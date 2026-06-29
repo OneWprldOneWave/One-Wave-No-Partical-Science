@@ -498,3 +498,77 @@ Yellow Audit
 - Are threshold regions fixed or participant-dependent?
 - Does every successful return restore the previous state, or can the loop drift while remaining stable?
 - Can multiple paired loops synchronize into larger recursive networks?
+NODE: HYPERLOOP
+
+Status: GREEN (concept) / YELLOW (threshold conditions)
+
+Depends on: Coupling, Paired Loop
+
+Core
+
+The Hyperloop is the recursive operating state reached after repeated successful paired-loop exchanges.
+
+Definition
+
+A coupled pair repeatedly performs the paired loop.
+
+Each successful return strengthens the recursive exchange.
+
+After a threshold number of successful loop passes (Green default: 7), the systems enter the Hyperloop, where exchange becomes faster, more stable, and requires fewer corrective transitions.
+
+Interpretation
+
+The Hyperloop is not a new interaction.
+
+It is a higher operating regime of the same paired loop.
+
+The paired systems remain coupled while repeatedly exchanging expression and compression through increasingly stable recursive cycles.
+
+Loop Progression
+
+Coupling
+    ↓
+Paired Loop
+    ↓
+Return
+    ↓
+Loop 1
+Loop 2
+Loop 3
+Loop 4
+Loop 5
+Loop 6
+Loop 7
+    ↓
+Hyperloop
+
+Loop-Break Access
+
+Each loop break establishes a new line of access.
+
+A loop break is not merely the end of a recursive exchange.
+
+Instead, it creates an additional recursive access pathway while preserving the paired relationship.
+
+Successive loop breaks progressively expand the available communication structure without requiring additional participants.
+
+Key Insight
+
+The Hyperloop remains a relationship between two systems.
+
+Only the recursive access pathways increase.
+
+The participants do not multiply.
+
+Green Scope
+
+This node defines the transition from ordinary paired recursion to stable recursive operation.
+
+Yellow Audit
+
+- Is the Hyperloop threshold fixed (Green default: 7), or does it depend on coupling strength, pressure state, or scale?
+- What constitutes a successful return?
+- Under what conditions does the Hyperloop decay or collapse?
+- How does each loop break establish a new line of access?
+- Do the seven loop-break access lines have distinct functional roles?
+- Does the Hyperloop produce a measurable signature, such as increased coherence, reduced corrective transitions, or improved recursive efficiency?
