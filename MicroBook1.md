@@ -351,3 +351,58 @@ Leads To
 - Exchange
 - Excitation
 - Boundary Formation
+NODE: LATTICE
+
+Status: YELLOW (definition) / YELLOW (geometry)
+
+Depends On:
+
+- Vacuum
+- Spatial Regimes
+- Flow
+- Exchange
+
+One-Wave Definition
+
+The lattice is the recursive connectivity of the One-Wave field. It is not a crystal or a grid of particles. It is the network of neighboring relationships through which imbalance, pressure, gradients, and recursive exchange propagate.
+
+The lattice provides the structural medium that permits localized excitations, standing modes, resonant cavities, and persistent knots.
+
+Mathematical Role
+
+Field state:
+
+[
+\psi_i
+]
+
+Neighbor exchange:
+
+[
+\psi_i \leftrightarrow \psi_j
+]
+
+Pressure:
+
+[
+P_\psi=-c^2\nabla^2\psi
+]
+
+Exchange occurs only through lattice connectivity.
+
+Green Definition
+
+The lattice is the recursive connectivity of the One-Wave field.
+
+Yellow Audit
+
+- Exact geometry
+- Connectivity rule
+- Dynamic versus fixed lattice
+- Relation to the 3D (1-12) and 2D (61) spatial regimes
+
+Leads To
+
+- Standing Mode
+- Resonant Cavity
+- Vortex
