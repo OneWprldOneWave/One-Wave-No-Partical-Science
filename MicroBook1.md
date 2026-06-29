@@ -185,3 +185,89 @@ Leads To
 
 Boundary
 Boundary Closure
+NODE: BOUNDARY
+
+Status: GREEN (definition) / YELLOW (geometry)
+
+Depends On:
+
+- Localized Excitation
+
+---
+
+Standard Model
+
+A boundary is the interface separating one physical region or state from another. Boundaries determine how waves propagate, reflect, transmit, or become confined.
+
+---
+
+One-Wave Definition
+
+A boundary is the interface between a localized excitation and the surrounding One-Wave field.
+
+The boundary is not a physical wall.
+
+It is the region where recursive pressure exchange transitions between the localized structure and the surrounding medium.
+
+---
+
+Mathematical Definition
+
+Pressure:
+
+[
+P_\psi=-c^2\nabla^2\psi
+]
+
+Boundary surface:
+
+[
+\partial\Omega
+]
+
+Pressure continuity:
+
+[
+P_{\text{inside}} \leftrightarrow P_{\text{outside}}
+]
+
+Interface differential:
+
+[
+\Delta P=P_{\text{inside}}-P_{\text{outside}}
+]
+
+---
+
+Physical Interpretation
+
+The boundary regulates exchange.
+
+If exchange exceeds stability, the excitation disperses.
+
+If exchange remains balanced, localization persists.
+
+The boundary therefore defines the observable extent of the excitation.
+
+---
+
+Green Definition
+
+A boundary is the recursive exchange interface separating a localized excitation from the surrounding field.
+
+---
+
+Yellow Audit
+
+- Exact boundary geometry
+- Dynamic boundary motion
+- Curvature dependence
+- Surface-energy relationship
+
+---
+
+Leads To
+
+Boundary Closure
+Reflection
+Transmission
