@@ -271,3 +271,83 @@ Leads To
 Boundary Closure
 Reflection
 Transmission
+NODE: UNBOUND LATTICE
+
+Status: GREEN (definition) / YELLOW (geometry)
+
+Depends On:
+
+- Vacuum
+- Spatial Regimes
+
+---
+
+Definition
+
+The Unbound Lattice is the undifferentiated connectivity of the One-Wave field before persistent structures emerge.
+
+It contains no stable knots, boundaries, or resonant cavities.
+
+The field is fully connected, and exchange is free to propagate without long-term confinement.
+
+---
+
+Mathematical Description
+
+Ground state:
+
+[
+\psi=\psi_0
+]
+
+Pressure:
+
+[
+P_\psi=-c^2\nabla^2\psi
+]
+
+No persistent closure:
+
+[
+|\psi_{n+k}-\psi_n|\ge\varepsilon
+]
+
+No bounded regions satisfy the persistence criterion.
+
+---
+
+Physical Interpretation
+
+The lattice is the medium through which imbalance, pressure, and exchange propagate.
+
+It is "unbound" because recursive exchange has not yet organized into stable localized structures.
+
+Persistent knots have not formed.
+
+Boundaries have not formed.
+
+Only the potential for organization exists.
+
+---
+
+Green Definition
+
+The Unbound Lattice is the connected One-Wave field before recursive boundary closure produces persistent structures.
+
+---
+
+Yellow Audit
+
+- Connectivity geometry
+- Neighbor relation
+- 3D (1-12) / 2D (61) mapping
+- Transition law from unbound to bound lattice
+
+---
+
+Leads To
+
+- Flow
+- Exchange
+- Excitation
+- Boundary Formation
