@@ -102,3 +102,86 @@ Yellow Audit
 Leads To
 
 Localized Excitation
+NODE: LOCALIZED EXCITATION
+
+Status: GREEN (definition) / YELLOW (boundary dynamics)
+
+Depends On:
+
+- Excitation
+
+---
+
+Standard Model
+
+A localized excitation is a field disturbance whose energy remains confined to a finite region for a measurable period.
+
+---
+
+One-Wave Definition
+
+A localized excitation is an excitation whose recursive restoring response prevents immediate dispersion.
+
+Localization is not imposed externally.
+
+Localization emerges from balanced recursive exchange.
+
+---
+
+Mathematical Definition
+
+Operational persistence:
+
+[
+|\psi_{n+k}-\psi_n|<\varepsilon
+]
+
+Pressure:
+
+[
+P_\psi=-c^2\nabla^2\psi
+]
+
+Local energy:
+
+[
+E_\Omega=\int_\Omega H(\psi),dV
+]
+
+Localization condition:
+
+[
+\frac{dE_\Omega}{dt}\approx0
+]
+
+for a bounded region Ω.
+
+---
+
+Physical Interpretation
+
+Energy is continuously exchanged with the surrounding field while the overall structure remains bounded.
+
+The excitation becomes identifiable because it persists, not because it is fundamentally separate from the field.
+
+---
+
+Green Definition
+
+A localized excitation is a recursively stable excitation confined to a finite region through balanced pressure exchange.
+
+---
+
+Yellow Audit
+
+- Boundary geometry
+- Escape conditions
+- Collapse conditions
+- Resonance thresholds
+
+---
+
+Leads To
+
+Boundary
+Boundary Closure
