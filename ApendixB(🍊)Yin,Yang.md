@@ -572,3 +572,44 @@ Yellow Audit
 - How does each loop break establish a new line of access?
 - Do the seven loop-break access lines have distinct functional roles?
 - Does the Hyperloop produce a measurable signature, such as increased coherence, reduced corrective transitions, or improved recursive efficiency?
+NODE: ACCESS LINE
+
+Status: GREEN (definition) / YELLOW (formation dynamics)
+
+Depends on: Break Condition, Paired Loop
+
+Core
+
+An Access Line is a persistent recursive pathway established when a paired loop undergoes a break condition that preserves future exchange.
+
+Definition
+
+When a paired loop reaches a break condition, the exchange may establish a new line of access.
+
+An Access Line preserves the possibility of future recursive exchange without replacing the original paired relationship.
+
+Each successful loop break may establish one additional access line.
+
+Interpretation
+
+Access Lines are pathways, not participants.
+
+They create additional recursive pathways between the same coupled pair.
+
+The paired systems remain connected while gaining new modes of interaction.
+
+Each Access Line represents an additional available route through the same recursive relationship.
+
+Green Scope
+
+This node defines the existence of persistent recursive access pathways only.
+
+Yellow Audit
+
+- Under what conditions does a break create an Access Line?
+- Are Access Lines persistent, temporary, or decay-based?
+- Can Access Lines merge, collapse, or be overwritten?
+- Do the seven loop breaks correspond to seven distinct Access Lines?
+- Does each Access Line have a unique functional role within the Hyperloop?
+- How is an Access Line selected when multiple lines are available?
+- Can inactive Access Lines be reactivated?
