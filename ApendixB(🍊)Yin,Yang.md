@@ -598,7 +598,7 @@ They create additional recursive pathways between the same coupled pair.
 
 The paired systems remain connected while gaining new modes of interaction.
 
-Each Access Line represents an additional available route through the same recursive relationship.
+Each Access Line preserves a previously established route of recursive exchange, allowing future interactions to reuse that pathway rather than creating a new one.
 
 Green Scope
 
@@ -613,3 +613,6 @@ Yellow Audit
 - Does each Access Line have a unique functional role within the Hyperloop?
 - How is an Access Line selected when multiple lines are available?
 - Can inactive Access Lines be reactivated?
+- Can an Access Line strengthen or weaken through repeated reuse?
+- Is an Access Line directional, bidirectional, or dynamically reversible?
+- Does every successful loop break create an Access Line, or only those that preserve stable recursive exchange?
