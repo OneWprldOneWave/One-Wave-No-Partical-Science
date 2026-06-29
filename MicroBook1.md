@@ -406,3 +406,66 @@ Leads To
 - Standing Mode
 - Resonant Cavity
 - Vortex
+NODE: UNBOUND LATTICE
+
+Status: GREEN (definition) / YELLOW (geometry)
+
+Depends On:
+
+- Vacuum
+- Spatial Regimes
+
+---
+
+One-Wave Definition
+
+The Unbound Lattice is the dynamic connectivity of the One-Wave field.
+
+The lattice is not a rigid crystal.
+
+It is proposed to behave as a highly deformable, liquid-crystal-like lattice whose local relationships remain ordered while continuously stretching, compressing, bending, and reorganizing through recursive exchange.
+
+The lattice is continuous, elastic, and recursive.
+
+It provides the medium through which imbalance, pressure, gradients, and exchange propagate.
+
+Persistent structures emerge from this lattice through recursive boundary closure.
+
+---
+
+Mathematical Role
+
+Ground state:
+
+[
+\psi=\psi_0
+]
+
+Pressure:
+
+[
+P_\psi=-c^2\nabla^2\psi
+]
+
+Neighbor exchange:
+
+[
+\psi_i \leftrightarrow \psi_j
+]
+
+The precise connectivity law remains to be determined.
+
+---
+
+Green Definition
+
+The Unbound Lattice is a continuous, highly elastic, liquid-crystal-like connectivity of the One-Wave field that supports recursive exchange while remaining free to deform.
+
+---
+
+Yellow Audit
+
+- Connectivity geometry
+- Elastic response law
+- Stretch/compression limits
+- Transition to persistent bound structures
